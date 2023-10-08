@@ -8,8 +8,8 @@ from discord.ext import commands
 from interactions import CommandInteraction
 intents = discord.Intents.all()
 conversation_history = []
-apikey = os.environ['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']
-token = os.environ['ODUxNTgxNjk2NTU3MTg3MDcz.GSBVXB.Ig7ijRzV7AYVmJ-WrMa_RJHDl6vRV4i4Z5P6OY']
+apikey = 
+token 
 
 def generate_gpt3_response(prompt):
     openai.api_key = apikey
