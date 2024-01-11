@@ -9,7 +9,7 @@ from interactions import CommandInteraction
 intents = discord.Intents.all()
 conversation_history = []
 apikey = 
-token 
+token =
 
 def generate_gpt3_response(prompt):
     openai.api_key = apikey
